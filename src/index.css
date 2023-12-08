@@ -10,8 +10,19 @@ body {
 }
 
 .box {
+  display: grid;
+  place-content: center;
+  font-weight: bold;
+  font-size: 21px;
   width: 120px;
   height: 120px;
   border-radius: 4px;
   background: #fff;
+}
+
+button {
+  background: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
 }
